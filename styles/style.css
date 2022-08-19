@@ -1,0 +1,36 @@
+.text-color{
+    color: coral;
+}
+#correction{
+    display: none;
+    color: red;
+    font-weight: 700;
+}
+.number-btn{
+    background-color: white;
+    border: none;
+    
+}
+.submit{
+    background-color: white;
+    border: solid 2px lightblue;
+    background-color: rgb(50, 50, 231);
+    color: white;
+    padding: 5px 10px;
+
+    
+}
+.number-btn:hover{
+    background-color: lightgrey;
+    border: 2px solid rgb(105, 103, 103);
+    color: white;
+}
+.submit:hover{
+    background-color:lightblue ;
+    border: 2px solid rgb(50, 50, 231);
+    color: steelblue;
+    font-weight: 600;
+}
+.calculator{
+    background-color: steelblue;
+}
