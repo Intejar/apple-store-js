@@ -4,10 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <h1>hlw</h1>
+    <section class="container">
+            <div class="card mt-5 mx-auto " style="max-width: 540px;">
+                <div class="row g-0 p-2">
+                  <div class="col-md-4 d-flex align-items-center">
+                    <img src="pic/iphone13.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-4 d-flex align-items-center">
+                    <div class="card-body">
+                      <h5 class="card-title">IPhone 13 </h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Price: $1200</small></p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 d-flex align-items-center">
+                    <div class="d-flex justify-content-around">
+                        <div class="mx-4">
+                            <button id="btn-minus">-</button>
+                            <button id="btn-display">0</button>
+                            <button id="btn-plus">+</button>
+                        </div>
+                        <div class="">
+                            <span id="display-price">0</span>
+                        </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            <div class="card mt-5 mx-auto " style="max-width: 540px;">
+                <div class="row g-0 p-2">
+                  <div class="col-md-4 d-flex align-items-center">
+                    <img src="pic/cover13.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-4 d-flex align-items-center">
+                    <div class="card-body">
+                      <h5 class="card-title">Back Case </h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">price : $250</small></p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 d-flex align-items-center">
+                    <div class="d-flex justify-content-around">
+                        <div class="mx-4">
+                            <button id="btn-minus-cover">-</button>
+                            <button id="btn-display-cover">0</button>
+                            <button id="btn-plus-cover">+</button>
+                        </div>
+                        <div class="">
+                            <span id="display-price-cover">0</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mt-5 mx-auto mb-5 p-3 d-flex justify-content-between" style="max-width: 540px;">
+                <div class="row">
+
+                   <div class="col-md-8">
+                      <h5>Subtotal: </h5>
+                      <h5>Tax:</h5>
+                      <hr>
+                      <h5>Total:</h5>
+                   </div>
+
+                   <div class="col-md-4 status">
+                      <h5>$ <span id="display-subtotal">0</span></h5>
+                      <h5>$ <span id="display-tax">0</span> </h5>
+                      <hr>
+                      <h5>$ <span id="display-total">0</span></h5>
+                   </div>
+                </div>
+             </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/calc.js"></script>
     
 </body>
+
 </html>
